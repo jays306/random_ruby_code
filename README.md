@@ -8,7 +8,11 @@ load './xml_scripts.rb'
 
 # Replace with your XML and XSD file paths
 xml_file_path = "/Users/jaewoongshin/Downloads/mysubmission.xml"
+
+# Note: Make sure all associated XSD files that are configured in your parent XSD file exist in the right paths
+# E.g: The XSD file you load can load other XSD files by <xsd:include schemaLocation="../../../Common/someCommonTypes.xsd"/>
 xsd_file_path = "/Users/jaewoongshin/Documents/TaxDocuments/JayIRS/2021v7.7/EmploymentTax/940/Return940.xsd"
+
 
 validate_xml(xml_file_path, xsd_file_path)
 
