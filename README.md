@@ -1,4 +1,15 @@
 # random_ruby_code
+## UUID to Bingint
+### How to convert uuid to bigint with DES
+#### Open your terminal and run the following
+```ruby
+irb
+load './uuid_to_bigint.rb'
+
+```
+#### Encryption libraries might need to be installed manually based on your environment
+
+
 ## XML Scripts
 ### How to validate a XML file against its corresponding XSD
 #### Open your terminal and run the following
